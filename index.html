@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lilac's Garden</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      background: #1a0f23;
+      color: #fefaff;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      color: #c493f7;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #9a82bf;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      background: #3a2950;
+      color: #e0caff;
+      padding: 14px 20px;
+      border-radius: 14px;
+      font-size: 1rem;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 0 10px rgba(165, 94, 234, 0.3);
+    }
+
+    .link:hover {
+      background: #5a3f77;
+      transform: translateY(-2px);
+      box-shadow: 0 0 12px rgba(192, 111, 255, 0.5);
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      stroke: #a55eea;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <img src="LOGO6.png" alt="Lilac Smeraldo Logo" class="logo" />
+  <h1>Lilac Smeraldo</h1>
+  <div class="subtitle">Wanderer in games, whisperer of lore.</div>
+
+  <div class="links">
+    <a class="link" href="https://instagram.com/smeraldo_calling" target="_blank">
+      <svg class="icon" data-lucide="instagram"></svg> Instagram
+    </a>
+    <a class="link" href="https://discord.com/users/lilac_smeraldo" target="_blank">
+      <svg class="icon" data-lucide="message-circle"></svg> Discord
+    </a>
+    <a class="link" href="https://twitch.tv/lilac_smeraldo" target="_blank">
+      <svg class="icon" data-lucide="tv"></svg> Twitch
+    </a>
+    <a class="link" href="https://twitter.com/LilacSmeraldo23" target="_blank">
+      <svg class="icon" data-lucide="twitter"></svg> Twitter
+    </a>
+    <a class="link" href="#" target="_blank">
+      <svg class="icon" data-lucide="gamepad-2"></svg> Genshin UID: 1813415195
+    </a>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
